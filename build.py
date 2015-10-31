@@ -126,7 +126,7 @@ def CustomPythonCmakeArgs():
   return [
     '-DPYTHON_LIBRARY={0}'.format( python_library ),
     '-DPYTHON_INCLUDE_DIR={0}'.format( python_include ),
-    '-DPYTHON_LIBRAR_EXECUTABLE={0}'.format(sys.executable)
+    '-DPYTHON_EXECUTABLE={0}'.format(sys.executable)
   ]
 
 
